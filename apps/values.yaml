@@ -43,3 +43,8 @@ services:
     targetRevision: main
     labels:
       description:
+  d2dcc:
+    enabled: true
+    targetRevision: main
+    labels:
+      description:
