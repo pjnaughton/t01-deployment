@@ -33,8 +33,3 @@ services:
   t01-epics-pvcs:
   t01-epics-opis:
   t01-epics-gateways:
-  d2dcc:
-    enabled: true
-    targetRevision: main
-    labels:
-      description:
