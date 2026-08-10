@@ -8,10 +8,10 @@
 # services should be running on the cluster. It is recommended that this repo
 # be updated by a CI/CD pipeline or configuration tools only.
 
-project: ygn40972
+project: accelerator
 destination:
-  name: argus
-  namespace: ygn40972
+  name: pollux
+  namespace: accelerator
 source:
   repoURL: https://github.com/pjnaughton/t01-services
   targetRevision: main

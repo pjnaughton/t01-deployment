@@ -3,10 +3,10 @@ _commit: 5.4.6
 _src_path: https://github.com/epics-containers/deployment-template-argocd
 argocd_cluster: argus
 argocd_server: argocd.diamond.ac.uk
-cluster_name: argus
-cluster_namespace: ygn40972
+cluster_name: pollux
+cluster_namespace: accelerator
 deployment_repo: https://github.com/pjnaughton/t01-deployment
-description: t01 IOC Instances and Services Deployment Repository for Argo CD
+description: t01 test of powersupply services will got into the ps TA at some point
 domain: t01
 git_platform: github.com
 github_org: pjnaughton

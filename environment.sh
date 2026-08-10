@@ -15,7 +15,7 @@ echo "Loading environment for t01 deployment ..."
 
 export EC_CLI_BACKEND="ARGOCD"
 # the argocd project and root app
-export EC_TARGET=ygn40972/t01
+export EC_TARGET=accelerator/t01
 # the git repo for this project
 export EC_SERVICES_REPO=https://github.com/pjnaughton/t01-services
 # declare your centralised log server Web UI

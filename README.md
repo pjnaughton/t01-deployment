@@ -1,4 +1,4 @@
-# t01 IOC Instances and Services Deployment Repository for Argo CD
+# t01 test of powersupply services will got into the ps TA at some point
 
 This repository holds the definition of Argocd deployed ec services. Each sub folder of the 'services' directory of an ec 'services repository' is mapped to an Argocd App which is managed by a root App. This can be found at [https://gitlab.diamond.ac.uk/controls/containers/beamline/t01-services].
 
