@@ -38,8 +38,3 @@ services:
     targetRevision: main
     labels:
       description:
-  cia-01:
-    enabled: true
-    targetRevision: main
-    labels:
-      description:
