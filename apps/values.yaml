@@ -38,3 +38,8 @@ services:
     targetRevision: main
     labels:
       description:
+  sr13a-pc-ioc-05:
+    enabled: true
+    targetRevision: main
+    labels:
+      description:
