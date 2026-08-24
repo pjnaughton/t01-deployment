@@ -31,6 +31,10 @@ services:
   #     ----
 
   t01-epics-pvcs:
+    enabled: true
+    targetRevision: main
+    labels:
+      description:
   t01-epics-opis:
     enabled: true
     targetRevision: main
