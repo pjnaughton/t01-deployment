@@ -32,6 +32,10 @@ services:
 
   t01-epics-pvcs:
   t01-epics-opis:
+    enabled: true
+    targetRevision: main
+    labels:
+      description:
   t01-epics-gateways:
   CIA-01:
     enabled: true
