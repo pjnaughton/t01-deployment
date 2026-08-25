@@ -2,15 +2,15 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: t01
-  namespace: ygn40972
+  namespace: accelerator
   finalizers:
     - resources-finalizer.argocd.argoproj.io/background
     - resources-finalizer.argocd.argoproj.io/foreground
 spec:
-  project: ygn40972
+  project: accelerator
   destination:
     name: argus
-    namespace: ygn40972
+    namespace: accelerator
   source:
     path: apps
     repoURL: https://github.com/pjnaughton/t01-deployment
