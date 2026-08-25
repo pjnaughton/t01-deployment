@@ -41,11 +41,6 @@ services:
     labels:
       description:
   t01-epics-gateways:
-  cia-01/ts0001:
-    enabled: true
-    targetRevision: main
-    labels:
-      description:
   ts0001:
     enabled: true
     targetRevision: main
