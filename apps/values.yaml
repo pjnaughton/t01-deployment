@@ -41,8 +41,3 @@ services:
     labels:
       description:
   t01-epics-gateways:
-  ts0001:
-    enabled: true
-    targetRevision: main
-    labels:
-      description:
